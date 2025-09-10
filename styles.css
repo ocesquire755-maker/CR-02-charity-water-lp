@@ -12,6 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 header img {
@@ -26,12 +27,14 @@ header img {
   justify-content: center;
   align-items: flex-start;
   background: url('img/Screenshot 2025-09-01 005223.png') no-repeat center center;
-  background-size: 99% auto;
+  background-size: 100% auto;
   min-height: 80vh;
+   
   padding: 40px;
   color: white;
   position: relative;
-  text-align: justify 
+  text-align: left
+  
 }
   
 }
@@ -48,12 +51,12 @@ header img {
 
 .hero-content {
   position: relative;
-  max-width: 500px;
+  max-width: 300px;
   z-index: 2;
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 20px;
 }
 
